@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Product List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <div class="header flex-container">
+            <a href="home.html">
+                <img id="logo" src="images/Logo.png">
+            </a>
+            <div class="headerContent">
+                <div class="headerUpper flex-container">
+                    <div class="searchBox headerUpper-child">
+                        <form method="get" action="/search" id="search">
+                            <input name="q" type="text" placeholder="Search pet outdoor gear" />
+                        </form>
+                    </div>
+                    <div class = "myAccount headerUpper-child"> My Account </div>
+                    <img class = "headerUpper-child" id = "profile-pic" src="images/User.png">
+                    <img class = "headerUpper-child" id = "cart" src="images/Cart.png">
+                    <div class = "cart-number">
+                        <div class="item-number">0</div>
+                    </div>
+                </div>
+                <hr class = "headerLine" width="900px" color="white">
+                <ul class = "headerLower flex-container">
+                    <li><a class = "nav" href="home.html#shop-bookmark">SHOP</a></li>
+                    <li><a class = "nav" href="#">STORE</a></li>
+                    <li><a class = "nav" href="#">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Background pic -->
+        <div class="product-list-bg">
+            <img id="pl-bg" src="images/productList/background.jpg">
+        </div>
+
+        <!-- Page Title -->
+        <div class="page-title-container">
+            <div class="page-title">
+                <div class="page-title-text"> Shop </div>
+                <div class="page-title-text"> Dog Harness </div>
+            </div>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="filters-sort flex-container">
+            <div class="filters-container" id="filter-by">
+                <div class="filter-title">Filter By:</div>
+                <div class="filters flex-container">
+                    <select class="filter" id="color-filter">
+                        <option>Color</option>
+                        <option>Strawberry</option>
+                        <option>Blackberry</option>
+                        <option>Crazyberry</option>
+                        <option>Camouflage</option>
+                        <option>Night Moon</option>
+                        <option>Fire Orange</option>
+                    </select>
+                    <select class="filter" id="size-filter">
+                        <option>Size</option>
+                        <option>Tiny</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filters-container" id="sort-by">
+                <div class="filter-title">Sort By:</div>
+                <div class="filters flex-container">
+                    <select class="filter" id="sort-by-content">
+                        <option>Price: Low to High </option>
+                        <option>Price: High to Low</option>
+                        <option>Newest</option>
+                        <option>Ratings: High to Low</option>
+                        <option>A-Z</option>
+                        <option>Z-A</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Product List Section -->
+        <div class = "pl-products flex-container">
+                <a href="productdetail-1.html" class="pl-container" id="pl1">
+                    <div class="pl-img-container">
+                        <img src="images/bs1.jpg" alt="Chai's Choice" class="pl-image">
+                    </div>
+                    <div class="bs-brand">Chai's Choice</div>
+                    <div class="bs-title">3M Reflective Dog Harness</div>
+                    <div class="bs-price">$25.00 USD</div>
+                    <div class="pl-rating">
+                        <img src="images/five-stars.png" alt="Five Stars" class="pl-rating-img">
+                    </div>
+                </a>
+                <a href="productdetail-2.html" class="pl-container" id="pl1">
+                    <div class="pl-img-container">
+                        <img src="images/bs2.jpg" alt="Ruffwear" class="pl-image">
+                    </div>
+                    <div class="bs-brand">Ruffwear</div>
+                    <div class="bs-title">Front Range Dog Harness</div>
+                    <div class="bs-price">$19.00 USD</div>
+                    <div class="pl-rating">
+                        <img src="images/four-stars.png" alt="Four Stars" class="pl-rating-img">
+                    </div>
+                </a>
+                <a href="productdetail-3.html" class="pl-container" id="pl1">
+                    <div class="pl-img-container">
+                        <img src="images/pl3.jpg" alt="Coastal" class="pl-image">
+                    </div>
+                    <div class="bs-brand">Coastal</div>
+                    <div class="bs-title">Reflective Dog Harness</div>
+                    <div class="bs-price">$32.00 USD</div>
+                    <div class="pl-rating">
+                        <img src="images/four-stars.png" alt="Four Stars" class="pl-rating-img">
+                    </div>
+                </a>
+            </div>
+
+        <!-- Footer Section -->
+        <div class="footer major-sec" id="pl-footer">
+            <hr>
+            <div class="footer-content flex-container">
+                <!-- Resources -->
+                <div class="resources footer-section">
+                    <div class="footer-title">Resources</div>
+                    <ul class="footer-list">
+                        <li>Create a Wedding Registry</li>
+                        <li>Returns</li>
+                        <li>Order Status</li>
+                        <li>Sales Item Policy</li>
+                        <li>Sales Tax Policy</li>
+                        <li>Updated Privacy Policy</li>
+                        <li>International Shipping Policy</li>
+                        <li>Learning Resources</li>
+                        <li>Gift Card Terms and Conditions</li>
+                    </ul>
+                </div>
+                <!-- About Muddy Paws -->
+                <div class="about footer-section">
+                    <div class="footer-title">About Muddy Paws</div>
+                    <ul class="footer-list">
+                        <li>About Muddy Paws</li>
+                        <li>Press Releases</li>
+                        <li>Group Sales</li>
+                        <li>Land Your Dream Job</li>
+                        <li>Affiliate Program</li>
+                        <li>Site Map</li>
+                        <li>What's Wrong with this Page?</li>
+                    </ul>
+                </div>
+                <!-- Social Media -->
+                <div class="social-media flex-container">
+                    <div class="SM-container">
+                        <img src="images/facebook-logo.png" alt="facebook-logo" class="SM-logo">
+                    </div>
+                    <div class="SM-container">
+                        <img src="images/twitter-logo.png" alt="twitter-logo" class="SM-logo">
+                    </div>
+                    <div class="SM-container">
+                        <img src="images/instagram-logo.png" alt="instagram-logo" class="SM-logo">
+                    </div>
+                    <div class="SM-container">
+                        <img src="images/youtube-logo.png" alt="youtube-logo" class="SM-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

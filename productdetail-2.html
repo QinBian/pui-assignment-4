@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Product Detail</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <div class="header flex-container">
+            <a href="home.html">
+                <img id="logo" src="images/Logo.png">
+            </a>
+            <div class="headerContent">
+                <div class="headerUpper flex-container">
+                    <div class="searchBox headerUpper-child">
+                        <form method="get" action="/search" id="search">
+                            <input name="q" type="text" placeholder="Search pet outdoor gear" />
+                        </form>
+                    </div>
+                    <div class = "myAccount headerUpper-child"> My Account </div>
+                    <img class = "headerUpper-child" id = "profile-pic" src="images/User.png">
+                    <img class = "headerUpper-child" id = "cart" src="images/Cart.png">
+                    <div class = "cart-number">
+                        <div class="item-number">0</div>
+                    </div>
+                </div>
+                <hr class = "headerLine" width="900px" color="white">
+                <ul class = "headerLower flex-container">
+                    <li><a class = "nav" href="home.html#shop-bookmark">SHOP</a></li>
+                    <li><a class = "nav" href="#">STORE</a></li>
+                    <li><a class = "nav" href="#">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Back to Results link -->
+        <div class="back-link-sect">
+            <a href="productlist.html" class="back-link-text"> &#60 Back to Results</a>
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-detail flex-container">
+            <div class="product-detail-pic">
+                <div class="large-pic-container">
+                    <img src="images/bs2.jpg" alt="enlarged product picture" class="large-pic">
+                </div>
+                <div class="small-pic-container flex-container">
+                    <img src="images/bs2.jpg" alt="small product picture" class="small-pic">
+                    <img src="images/detail3.jpg" alt="small product picture" class="small-pic">
+                    <img src="images/detail4.jpg" alt="small product picture" class="small-pic">
+                </div>
+            </div>
+            <div class="product-detail-text">
+                <div class="pd-brand">Ruffwear</div>
+                <div class="pd-name">Ruffwear Front Range Dag Harness</div>
+                <div class="pd-price">$19.00 USD</div>
+                <!-- size -->
+                <div class="pd-options" id="pd-size">
+                    <div class="pd-option-text">Select a Size:</div>
+                    <select class="pd-option-dropdown">
+                        <option>Strawberry</option>
+                        <option>Blackberry</option>
+                        <option>Crazyberry</option>
+                        <option>Camouflage</option>
+                        <option>Night Moon</option>
+                        <option>Fire Orange</option>
+                    </select>
+                </div>
+                <!-- color -->
+                <div class="pd-options" id="pd-color">
+                    <div class="pd-option-text">Select a Color:</div>
+                    <select class="pd-option-dropdown">
+                        <option>Tiny</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </div>
+                <!-- Quantity -->
+                <div class="pd-options" id="pd-quantity">
+                    <div class="pd-option-text">Quantity</div>
+                    <select class="pd-option-dropdown">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <button class="cart-button">ADD TO CART</button>
+            </div>
+        </div>
+        <!-- Product Description -->
+        <div class="pro-descrip">
+            <div class = "section-title">
+                <span class="title-text">Product Description</span>
+            </div>
+            <div class="pro-descrip-container">
+                <p class="pro-descrip-content">The Ruffwear Front Range Harness is an everyday harness that is easy to put on and comfortable for dogs to wear. The harness features two leash attachment points: an aluminum V-ring centered on the dog's back for everyday walks, and reinforced webbing at the dog's chest for training or additional control. The ID pocket keeps dog tags quiet and easily accessible. Try our matching Front Range™ Leash for the complete set up.</p>
+            </div>
+        </div>
+        <!-- Reviews -->
+        <div>
+            <div class = "section-title">
+                <span class="title-text">Reviews</span>
+            </div>
+            <div class = "total-rating-container flex-container">
+                <img src="images/four-stars.png" alt="five-stars" class="total-rating">
+                <div class="num-rating"> 2 REVIEWS </div>
+            </div>
+            <hr>
+            <div class="review-content-container flex-container">
+                <div class="cus-info">
+                    <img src="images/five-stars.png" alt="five-stars" class="individual-rating">
+                    <div class="cus-name"> Leela M. </div>
+                    <div class="cus-location">Berkeley, CA</div>
+                </div>
+                <div class="review-content">
+                    <div class="review-date">SEPTEMBER 22, 2017</div>
+                    <div class="review-title">Great Product!</div>
+                    <p class="review-details">We have 2 Mini Aussies. Still pups and very active and playful. The Ruffwear Harness has held up wonderfully! Other harnesses never held up and broke. Also excellent for control when walking and comfortable for the dogs!</p>
+                </div>
+            </div>
+            <div class="review-content-container flex-container">
+                <div class="cus-info">
+                    <img src="images/four-stars.png" alt="five-stars" class="individual-rating">
+                    <div class="cus-name"> Taylor M. </div>
+                    <div class="cus-location">Atlanta, GA</div>
+                </div>
+                <div class="review-content">
+                    <div class="review-date">SEPTEMBER 20, 2017</div>
+                    <div class="review-title">My dog likes it</div>
+                    <p class="review-details">Easy to use and our vizsla seems to be extremely comfortable wearing it. Online sizing worked perfectly! Ordering and receiving the harness was quick and easy.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer Section -->
+        <div class="footer major-sec" id="pl-footer">
+            <hr>
+            <div class="footer-content flex-container">
+                <!-- Resources -->
+                <div class="resources footer-section">
+                    <div class="footer-title">Resources</div>
+                    <ul class="footer-list">
+                        <li>Create a Wedding Registry</li>
+                        <li>Returns</li>
+                        <li>Order Status</li>
+                        <li>Sales Item Policy</li>
+                        <li>Sales Tax Policy</li>
+                        <li>Updated Privacy Policy</li>
+                        <li>International Shipping Policy</li>
+                        <li>Learning Resources</li>
+                        <li>Gift Card Terms and Conditions</li>
+                    </ul>
+                </div>
+                <!-- About Muddy Paws -->
+                <div class="about footer-section">
+                    <div class="footer-title">About Muddy Paws</div>
+                    <ul class="footer-list">
+                        <li>About Muddy Paws</li>
+                        <li>Press Releases</li>
+                        <li>Group Sales</li>
+                        <li>Land Your Dream Job</li>
+                        <li>Affiliate Program</li>
+                        <li>Site Map</li>
+                        <li>What's Wrong with this Page?</li>
+                    </ul>
+                </div>
+                <!-- Social Media -->
+                <div class="social-media flex-container">
+                    <div class="SM-container">
+                        <img src="images/facebook-logo.png" alt="facebook-logo" class="SM-logo">
+                    </div>
+                    <div class="SM-container">
+                        <img src="images/twitter-logo.png" alt="twitter-logo" class="SM-logo">
+                    </div>
+                    <div class="SM-container">
+                        <img src="images/instagram-logo.png" alt="instagram-logo" class="SM-logo">
+                    </div>
+                    <div class="SM-container">
+                        <img src="images/youtube-logo.png" alt="youtube-logo" class="SM-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

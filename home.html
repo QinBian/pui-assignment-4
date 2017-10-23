@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Mutty Paws</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <!-- javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<!-- Header Section -->
+		<div class="header flex-container">
+			<img id="logo" src="images/Logo.png">
+			<div class="headerContent">
+				<div class="headerUpper flex-container">
+					<div class="searchBox headerUpper-child">
+						<form method="get" action="/search" id="search">
+	  						<input name="q" type="text" placeholder="Search pet outdoor gear" />
+						</form>
+					</div>
+					<div class = "myAccount headerUpper-child"> My Account </div>
+					<img class = "headerUpper-child" id = "profile-pic" src="images/User.png">
+					<img class = "headerUpper-child" id = "cart" src="images/Cart.png">
+					<div class = "cart-number">
+                        <div class="item-number">0</div>
+                    </div>
+				</div>
+				<hr class = "headerLine" width="900px" color="white">
+				<ul class = "headerLower flex-container">
+					<li><a class = "nav" href="#shop-bookmark">SHOP</a></li>
+				    <li><a class = "nav" href="#">STORE</a></li>
+			  	    <li><a class = "nav" href="#">ABOUT</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Background pic -->
+		<div class="Bg-pic">
+			<img id="background-pic" src="images/background.jpg" width="1440px" height="839px">
+		</div>
+
+		<!-- Product section -->
+		<div class = "product-sec major-sec" id="shop-bookmark">
+			<div class = "section-title">
+				<span class="title-text">Our Products</span>
+			</div>
+			<div class = "product-row first-row flex-container">
+				<!-- Dog Harness -->
+				<a href="productlist.html">
+					<div class="product-container">
+						<img src="images/product1.jpg" alt="dog harness" class="product-image">
+						<div class="overlay">
+							<div class="product-category">Dog Harness</div>
+						</div>
+					</div>
+				</a>
+				<!-- Cat Harness -->
+				<div class="product-container">
+					<img src="images/product2.jpg" alt="cat harness" class="product-image">
+					<div class="overlay">
+						<div class="product-category">Cat Harness</div>
+					</div>
+				</div>
+			</div>
+			<div class = "product-row flex-container">
+				<!-- Food Storage -->
+				<div class="product-container">
+					<img src="images/storage.jpg" alt="dog harness" class="product-image">
+					<div class="overlay">
+						<div class="product-category">Food/Water Storage</div>
+					</div>
+				</div>
+				<!-- GPS Tracker Collar -->
+				<div class="product-container">
+					<img src="images/tracker.jpg" alt="cat harness" class="product-image">
+					<div class="overlay">
+						<div class="product-category">GPS Tracker Collar</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Best Sellers Section -->
+		<div class="best-sellers major-sec">
+			<div class = "section-title">
+				<span class="title-text">Best Sellers</span>
+			</div>
+			<div class = "bs-products flex-container">
+				<div class="bs-container" id="bs1">
+					<img src="images/bs1.jpg" alt="Chai's Choice" class="bs-image">
+					<div class="bs-brand">Chai's Choice</div>
+					<div class="bs-title">3M Reflective Dog Harness</div>
+					<div class="bs-price">$25.00 USD</div>
+				</div>
+				<div class="bs-container" id="bs2">
+					<img src="images/bs2.jpg" alt="Ruffwear" class="bs-image">
+					<div class="bs-brand">Ruffwear</div>
+					<div class="bs-title">Front Range Dog Harness</div>
+					<div class="bs-price">$19.00 USD</div>
+				</div>
+				<div class="bs-container" id="bs3">
+					<img src="images/bs3.jpg" alt="Whisker City" class="bs-image">
+					<div class="bs-brand">Whisker City</div>
+					<div class="bs-title">Reflective Stars Cat Harness</div>
+					<div class="bs-price">$22.50 USD</div>
+				</div>
+				<div class="bs-container" id="bs4">
+					<img src="images/bs4.jpg" alt="Luxon" class="bs-image">
+					<div class="bs-brand">Luxon</div>
+					<div class="bs-title">Wifi Pet GPS Tracker</div>
+					<div class="bs-price">$45.00 USD</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Stay in Touch Section -->
+		<div class="stay-touch major-sec">
+			<div class = "section-title">
+				<span class="title-text">Stay in Touch</span>
+			</div>
+			<div class="st-text"> Sign up for Muddy Paws’ news, sales and deals</div>
+			<div class="email-sec flex-container">
+				<input type="text" id="email-input" placeholder="" ="Email..."></input>
+        		<button class = "email">Sign up</button>
+			</div>
+		</div>
+
+		<!-- Footer Section -->
+		<div class="footer major-sec">
+			<hr>
+			<div class="footer-content flex-container">
+				<!-- Resources -->
+				<div class="resources footer-section">
+					<div class="footer-title">Resources</div>
+					<ul class="footer-list">
+						<li>Create a Wedding Registry</li>
+						<li>Returns</li>
+						<li>Order Status</li>
+						<li>Sales Item Policy</li>
+						<li>Sales Tax Policy</li>
+						<li>Updated Privacy Policy</li>
+						<li>International Shipping Policy</li>
+						<li>Learning Resources</li>
+						<li>Gift Card Terms and Conditions</li>
+					</ul>
+				</div>
+				<!-- About Muddy Paws -->
+				<div class="about footer-section">
+					<div class="footer-title">About Muddy Paws</div>
+					<ul class="footer-list">
+						<li>About Muddy Paws</li>
+						<li>Press Releases</li>
+						<li>Group Sales</li>
+						<li>Land Your Dream Job</li>
+						<li>Affiliate Program</li>
+						<li>Site Map</li>
+						<li>What's Wrong with this Page?</li>
+					</ul>
+				</div>
+				<!-- Social Media -->
+				<div class="social-media flex-container">
+					<div class="SM-container">
+						<img src="images/facebook-logo.png" alt="facebook-logo" class="SM-logo">
+					</div>
+					<div class="SM-container">
+						<img src="images/twitter-logo.png" alt="twitter-logo" class="SM-logo">
+					</div>
+					<div class="SM-container">
+						<img src="images/instagram-logo.png" alt="instagram-logo" class="SM-logo">
+					</div>
+					<div class="SM-container">
+						<img src="images/youtube-logo.png" alt="youtube-logo" class="SM-logo">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
